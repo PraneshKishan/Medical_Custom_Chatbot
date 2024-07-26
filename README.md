@@ -8,6 +8,6 @@ This Medical Custom Chatbot is developed using Python.
 - Now run the chatbot.py file. 
 
 # Note :
-- Enter the correct fiole location path in the code where mentioned as "intents file path"
+- Enter the correct file location path in the code where mentioned as "Enter your intents.json file path here" in training.py and chatbot.py codes
 - This is a CLI program.
 - The Data You enter in the intents.json file will affect the chatbot
