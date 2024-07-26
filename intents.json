@@ -1,0 +1,139 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["hello", "hey", "hi", "good day", "what's up", "how are you"],
+            "responses": ["Hello! How can I assist you with your health today?", "Hi! What health issue are you experiencing?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["see you later", "goodbye", "I am leaving", "have a good day", "bye"],
+            "responses": ["Take care! If you have more health questions, feel free to ask.", "Goodbye! Stay healthy!"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["what is your name?", "who are you?", "can you tell me your name?", "what should I call you?"],
+            "responses": ["You can call me HealthBot.", "I am HealthBot, your medical assistant.", "My name is HealthBot."]
+        },
+        {
+            "tag": "fever",
+            "patterns": ["I have a fever", "I'm running a fever", "fever symptoms", "high temperature"],
+            "responses": ["Fever can be a sign of infection. Ensure you stay hydrated and rest. If the fever persists for more than 3 days or is very high, consult a doctor."]
+        },
+        {
+            "tag": "cough",
+            "patterns": ["I have a cough", "coughing a lot", "persistent cough", "coughing symptoms"],
+            "responses": ["A cough can be caused by various conditions like a cold, flu, or allergies. Drink warm fluids and rest. If you have difficulty breathing or the cough lasts more than 2 weeks, see a healthcare provider."]
+        },
+        {
+            "tag": "headache",
+            "patterns": ["I have a headache", "head pain", "migraine", "severe headache"],
+            "responses": ["Headaches can be caused by stress, dehydration, or other factors. Drink water, rest in a dark room, and consider taking pain relief medication. If the headache is sudden and severe, seek medical attention."]
+        },
+        {
+            "tag": "stomach_ache",
+            "patterns": ["I have a stomach ache", "abdominal pain", "stomach pain", "cramps"],
+            "responses": ["Stomach aches can be due to indigestion, gas, or other causes. Avoid heavy meals, drink clear fluids, and rest. If the pain is severe or persistent, consult a healthcare professional."]
+        },
+        {
+            "tag": "allergies",
+            "patterns": ["I have allergies", "allergic reaction", "sneezing", "itchy eyes"],
+            "responses": ["Allergies can cause sneezing, itching, and other symptoms. Avoid allergens, use antihistamines, and keep your environment clean. If you have a severe reaction, seek immediate medical help."]
+        },
+        {
+            "tag": "cold",
+            "patterns": ["I have a cold", "common cold", "cold symptoms", "runny nose", "sore throat"],
+            "responses": ["Colds are caused by viruses. Rest, stay hydrated, and use over-the-counter cold remedies to relieve symptoms. If symptoms worsen or persist, see a doctor."]
+        },
+        {
+            "tag": "flu",
+            "patterns": ["I have the flu", "flu symptoms", "influenza", "body aches", "chills"],
+            "responses": ["The flu can cause fever, body aches, and chills. Rest, drink fluids, and consider taking antiviral medications. If you experience difficulty breathing or chest pain, seek medical attention immediately."]
+        },
+        {
+            "tag": "skin_rash",
+            "patterns": ["I have a skin rash", "rash", "itchy skin", "red spots"],
+            "responses": ["Rashes can be due to allergies, infections, or other causes. Avoid scratching, use soothing lotions, and keep the area clean. If the rash spreads or is accompanied by other symptoms, consult a doctor."]
+        },
+        {
+            "tag": "mental_health",
+            "patterns": ["I feel anxious", "I'm depressed", "mental health issues", "stress"],
+            "responses": ["Mental health is important. Try relaxation techniques, talk to a friend or family member, and consider seeking help from a mental health professional."]
+        },
+        {
+            "tag": "emergency",
+            "patterns": ["I have chest pain", "I can't breathe", "severe pain", "emergency"],
+            "responses": ["This sounds like a medical emergency. Please seek immediate medical attention or call emergency services."]
+        },
+        {
+            "tag": "sore_throat",
+            "patterns": ["I have a sore throat", "throat pain", "difficulty swallowing", "scratchy throat"],
+            "responses": ["A sore throat can be caused by infections or irritants. Drink warm liquids, gargle with salt water, and rest your voice. If the pain persists or you have a fever, see a doctor."]
+        },
+        {
+            "tag": "nausea",
+            "patterns": ["I feel nauseous", "I have nausea", "feeling sick", "want to vomit"],
+            "responses": ["Nausea can be caused by various factors. Try to rest, stay hydrated, and eat light foods. If nausea persists or is severe, consult a healthcare professional."]
+        },
+        {
+            "tag": "diarrhea",
+            "patterns": ["I have diarrhea", "loose stools", "frequent bowel movements", "diarrhea symptoms"],
+            "responses": ["Diarrhea can be caused by infections or dietary issues. Stay hydrated, avoid dairy and greasy foods, and consider over-the-counter medication. If it persists for more than a couple of days, see a doctor."]
+        },
+        {
+            "tag": "constipation",
+            "patterns": ["I am constipated", "difficulty passing stools", "constipation symptoms", "hard stools"],
+            "responses": ["Constipation can be relieved by increasing fiber intake, drinking more water, and exercising. If it persists or is accompanied by severe pain, consult a healthcare professional."]
+        },
+        {
+            "tag": "back_pain",
+            "patterns": ["I have back pain", "my back hurts", "lower back pain", "backache"],
+            "responses": ["Back pain can be caused by muscle strain, poor posture, or other issues. Rest, use heat or ice packs, and practice gentle stretching. If pain is severe or persistent, seek medical advice."]
+        },
+        {
+            "tag": "injury",
+            "patterns": ["I got injured", "I hurt myself", "injury symptoms", "accident"],
+            "responses": ["For minor injuries, clean the wound, apply ice, and rest. For serious injuries, seek immediate medical attention."]
+        },
+        {
+            "tag": "sleep_problems",
+            "patterns": ["I have trouble sleeping", "insomnia", "can't sleep", "sleep issues"],
+            "responses": ["Good sleep hygiene includes maintaining a regular sleep schedule, avoiding screens before bedtime, and creating a comfortable sleep environment. If problems persist, consider consulting a healthcare provider."]
+        },
+        {
+            "tag": "heartburn",
+            "patterns": ["I have heartburn", "acid reflux", "burning in chest", "GERD symptoms"],
+            "responses": ["Heartburn can be relieved by avoiding spicy and fatty foods, not lying down after eating, and taking antacids. If it occurs frequently, consult a doctor."]
+        },
+        {
+            "tag": "fatigue",
+            "patterns": ["I feel tired", "I'm always tired", "fatigue symptoms", "lack of energy"],
+            "responses": ["Fatigue can be caused by various factors. Ensure you get enough rest, eat a balanced diet, and stay hydrated. If fatigue persists, see a healthcare provider for further evaluation."]
+        },
+        {
+            "tag": "dizziness",
+            "patterns": ["I feel dizzy", "lightheaded", "dizziness symptoms", "spinning sensation"],
+            "responses": ["Dizziness can be caused by dehydration, low blood sugar, or other factors. Sit or lie down until the feeling passes, and drink water. If dizziness is frequent or severe, consult a healthcare provider."]
+        },
+        {
+            "tag": "blood_pressure",
+            "patterns": ["high blood pressure", "low blood pressure", "hypertension", "hypotension"],
+            "responses": ["Blood pressure issues should be monitored regularly. Maintain a healthy diet, exercise, and follow your doctor's advice. If you experience symptoms like severe headache or fainting, seek medical attention."]
+        },
+        {
+            "tag": "diabetes",
+            "patterns": ["diabetes management", "high blood sugar", "low blood sugar", "diabetes symptoms"],
+            "responses": ["Managing diabetes involves monitoring blood sugar levels, maintaining a healthy diet, exercising, and taking prescribed medications. Consult your doctor for a personalized plan."]
+        },
+        {
+            "tag": "medications",
+            "patterns": ["medication advice", "drug interactions", "side effects", "how to take my meds"],
+            "responses": ["Always take medications as prescribed by your doctor. For specific advice on interactions or side effects, consult your healthcare provider or pharmacist."]
+        },
+        {
+            "tag": "hydration",
+            "patterns": ["how much water should I drink?", "hydration tips", "drinking water", "stay hydrated"],
+            "responses": ["It's generally recommended to drink about 8 glasses of water"]
+        }
+    ]
+}
