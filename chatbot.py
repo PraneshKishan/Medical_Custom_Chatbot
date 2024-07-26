@@ -8,7 +8,7 @@ from keras.models import load_model
 
 # Initialize the lemmatizer and load the necessary files
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open(r'D:\Medical Chatbot\intents.json').read())
+intents = json.loads(open(r'D:\Medical Chatbot\intents.json').read()) #Enter your correct intents.json file Path
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
 model = load_model('chatbot_model.h5')
