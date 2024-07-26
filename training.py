@@ -7,7 +7,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open('D:\Medical Chatbot\intents.json').read())
+intents = json.loads(open('D:\Medical Chatbot\intents.json').read()) #Enter your correct intents.json file path here
 words = []
 classes = []
 documents = []
